@@ -1,0 +1,29 @@
+.popup {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--black);
+    border: 2px solid var(--light-green);
+}
+
+
+.popup-title {
+    color: var(--light-green);
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+
+.popup-button {
+    background-color: var(--green);
+    padding: 20px 40px;
+    color: var(--light-green);
+    border: 2px solid var(--light-green);
+    cursor: pointer;
+}
